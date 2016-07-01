@@ -1,0 +1,34 @@
+{
+  "name": "@smallstoneapps/about-window",
+  "author": "Matthew Tole <pebble@matthewtole.com>",
+  "version": "1.0.0",
+  "files": [
+    "dist.zip"
+  ],
+  "keywords": [
+    "pebble-package"
+  ],
+  "dependencies": {
+    "@smallstoneapps/scroll-text-layer": "^1.2.1",
+    "@smallstoneapps/utils": "^1.2.0"
+  },
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "resources": {
+      "media": []
+    }
+  },
+  "description": "A Pebble package to handle display information about an app",
+  "main": "src/c/about-window.h",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@smallstoneapps/about-window-demo",
+  "author": "Matthew Tole <pebble@matthewtole.com>",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@smallstoneapps/about-window": "../"
+  },
+  "pebble": {
+    "displayName": "About Window Demo",
+    "uuid": "9ddb4d74-8f27-4cd5-8ce8-6e8fab33b01e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  },
+  "description": "Demo app to show the basic usage of the about-window package",
+  "main": "src/demo.c",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
