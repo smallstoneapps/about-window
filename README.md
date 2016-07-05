@@ -1,4 +1,4 @@
-# About Window [![npm (scoped)](https://img.shields.io/npm/v/@smallstoneapps/about-window.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/@smallstoneapps/about-window)&nbsp;[![MIT License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square)](./LICENSE)
+# About Window [![npm (scoped)](https://img.shields.io/npm/v/@smallstoneapps/about-window.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/@smallstoneapps/about-window)&nbsp;[![MIT License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square)](./LICENSE) [![Build Status](https://www.bitrise.io/app/1bba2f0bbcba4176.svg?token=dqSIrdW70Zl3Eon8aar3bg)](https://www.bitrise.io/app/1bba2f0bbcba4176)
 
 Pebble library for easily adding an About window to your app.
 
