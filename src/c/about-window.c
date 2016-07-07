@@ -60,9 +60,11 @@ void about_window_set_text_from_resources(uint32_t resource_id) {
   }
   ResHandle resource = resource_get_handle(resource_id);
   size_t size = resource_size(resource);
-  s_text = malloc(size);
+  s_text = malloc(size + 1);
   resource_load(resource, (uint8_t*)s_text, size);
-  layer_mark_dirty(s_layer_header);
+  if (s_layer_scroll != NULL) {
+    scroll_text_layer_set_text(s_layer_scroll, s_text);
+  }
 }
 
 

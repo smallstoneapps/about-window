@@ -27,7 +27,13 @@
       "dummy"
     ],
     "resources": {
-      "media": []
+      "media": [
+        {
+          "type": "raw",
+          "name": "TEXT_ABOUT",
+          "file": "about.txt"
+        }
+      ]
     }
   },
   "description": "Demo app to show the basic usage of the about-window package",

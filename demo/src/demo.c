@@ -4,7 +4,7 @@
 static void prv_init(void) {
   about_window_init();
   about_window_set_title("About Window Demo");
-  about_window_set_text("Lorem ipsum dolor sit amet, an aliquid convenire honestatis eos. Eos ad tale homero reprimique. Te option mediocrem mel, ius no quodsi tincidunt. Ad sea aliquid ullamcorper.\n\nPertinax similique philosophia no has, ad tempor fastidii pri. Ex sit postea expetendis. Phaedrum consulatu quaerendum te his, pro an doctus delenit. Nec feugiat prodesset ea, ei his tollit discere facilisis.");
+  about_window_set_text_from_resources(RESOURCE_ID_TEXT_ABOUT);
   about_window_show(true);
 }
 
