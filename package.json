@@ -1,7 +1,7 @@
 {
   "name": "@smallstoneapps/about-window",
   "author": "Matthew Tole <pebble@matthewtole.com>",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "files": [
     "dist.zip"
   ],
@@ -19,7 +19,8 @@
       "aplite",
       "basalt",
       "chalk",
-      "diorite"
+      "diorite",
+      "emery"
     ],
     "resources": {
       "media": []
