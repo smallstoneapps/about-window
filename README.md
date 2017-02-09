@@ -2,6 +2,10 @@
 
 Pebble library for easily adding an About window to your app.
 
+![](https://images.unsplash.com/photo-1461724947009-3c626ff3d2bc?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=)
+
+*As of January 2017, this library is officially abandoned.*
+
 ## Installation
 
 *You must be using Pebble SDK 3.12 or newer to use this library.*
